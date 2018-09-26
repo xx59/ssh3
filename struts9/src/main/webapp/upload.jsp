@@ -1,12 +1,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@  taglib uri="/struts-tags" prefix="s"%>
 <html>
 <head>
-    <title>Title</title>
+    <title>文件上传</title>
 </head>
 <body>
-<form action="upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="file" size="100"><br>
-    <input type="submit" value="upload">
-</form>
+<s:form action="upload" enctype="multipart/form-data">
+    <s:file name="file"></s:file>
+    <s:submit value="submit"></s:submit>
+</s:form>
 </body>
 </html>

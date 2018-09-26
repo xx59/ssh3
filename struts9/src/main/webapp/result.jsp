@@ -1,8 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@  taglib uri="/struts-tags" prefix="s"%>
 <html>
 <head>
-    <title>Title</title>
+    <title>文件上传列表</title>
 </head>
 <body>
 <s:property value="fileFileName"/>
